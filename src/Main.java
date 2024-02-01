@@ -5,8 +5,6 @@ public class Main {
         counter();
 
 
-
-
     }
 
     public static void counter() {
@@ -15,8 +13,15 @@ public class Main {
 
         while (count <= 100) {
 
-            System.out.println(count);
-            count++;
+            if (count % 5 == 0) {
+
+                System.out.println("Buzz");
+                count++;
+            } else {
+
+                System.out.println(count);
+                count++;
+            }
         }
     }
 }
