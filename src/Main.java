@@ -7,6 +7,7 @@ public class Main {
 
     }
 
+    // First iteration of the 0-100 counter
     public static void counter() {
 
         int count = 0;
