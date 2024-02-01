@@ -12,7 +12,7 @@ public class Main {
 
         int count = 0;
 
-        while (count <= 100) {
+        while (count <= 200) {
 
             if (count % 3 + count % 5 == 0) {
 
