@@ -15,8 +15,14 @@ public class Main {
 
         while (count <= 100) {
 
+            if (count % 3 == 0) {
+                System.out.println("Fizz");
+                count++;
+            } else {
+
             System.out.println(count);
             count++;
+            }
         }
     }
 }
