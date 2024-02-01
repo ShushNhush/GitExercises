@@ -5,8 +5,6 @@ public class Main {
         counter();
 
 
-
-
     }
 
     public static void counter() {
@@ -18,11 +16,17 @@ public class Main {
             if (count % 3 == 0) {
                 System.out.println("Fizz");
                 count++;
+            }
+            if (count % 5 == 0) {
+
+                System.out.println("Buzz");
+                count++;
             } else {
 
-            System.out.println(count);
-            count++;
+                System.out.println(count);
+
             }
+            count++;
         }
     }
 }
