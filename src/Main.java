@@ -13,6 +13,13 @@ public class Main {
 
         while (count <= 100) {
 
+            if (count % 3 + count % 5 == 0) {
+
+                System.out.println("FizzBuzz");
+
+                count++;
+            }
+
             if (count % 3 == 0) {
                 System.out.println("Fizz");
                 count++;
@@ -20,8 +27,9 @@ public class Main {
             if (count % 5 == 0) {
 
                 System.out.println("Buzz");
-                count++;
-            } else {
+
+            }
+          else {
 
                 System.out.println(count);
 
