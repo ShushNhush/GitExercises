@@ -4,6 +4,7 @@ public class Main {
 
         counter();
 
+        // random comment for testing commit
 
     }
 
